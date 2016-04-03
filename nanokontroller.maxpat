@@ -6728,7 +6728,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontsize" : 20.0,
 					"id" : "obj-157",
-					"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7654,13 +7654,15 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 11967.982422, "ms" ],
-						"loopstart" : [ 11967.982422, "ms" ],
+						"loopend" : [ 25299.0, "ms" ],
+						"loopstart" : [ 25299.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
 						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
+						"pitchshift" : [ 10.0 ],
+						"pitchshiftcent" : [ 3986 ],
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
 					}
@@ -8455,13 +8457,15 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 37195.988281, "ms" ],
-						"loopstart" : [ 29606.984375, "ms" ],
+						"loopend" : [ 1939.977417, "ms" ],
+						"loopstart" : [ 1600.997803, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 2880.0, "ticks" ],
-						"originaltempo" : 120.0,
+						"originaltempo" : 134.630219,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
+						"pitchshift" : [ 10.0 ],
+						"pitchshiftcent" : [ 3986 ],
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
 					}
@@ -11011,9 +11015,9 @@
  ],
 		"parameters" : 		{
 			"obj-3" : [ "number[9]", "number", 0 ],
+			"obj-94" : [ "number[2]", "number", 0 ],
 			"obj-38" : [ "number", "number", 0 ],
-			"obj-92" : [ "number[1]", "number", 0 ],
-			"obj-94" : [ "number[2]", "number", 0 ]
+			"obj-92" : [ "number[1]", "number", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
