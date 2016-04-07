@@ -57,7 +57,7 @@
 					"bgcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgcolor2" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
+					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_color1" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor_color2" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -545,9 +545,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 377.0, 16.0, 123.0, 22.0 ],
+					"patching_rect" : [ 377.0, 16.0, 113.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ fOok2 1 4000"
+					"text" : "buffer~ fOok2 4000"
 				}
 
 			}
@@ -558,9 +558,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 102.0, 16.0, 123.0, 22.0 ],
+					"patching_rect" : [ 102.0, 16.0, 113.0, 22.0 ],
 					"style" : "",
-					"text" : "buffer~ fOok1 1 4000"
+					"text" : "buffer~ fOok1 4000"
 				}
 
 			}
