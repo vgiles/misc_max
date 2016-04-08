@@ -42,20 +42,18 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-115",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "vg.VT_controls.maxpat",
-					"numinlets" : 0,
+					"fontface" : 1,
+					"fontsize" : 24.0,
+					"id" : "obj-117",
+					"maxclass" : "comment",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1.666626, 573.333313, 717.333374, 444.000031 ],
-					"viewvisibility" : 1
+					"patching_rect" : [ 1.666626, 543.666687, 717.333374, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -1.333374, -2.333313, 717.333374, 33.0 ],
+					"style" : "",
+					"text" : "Tape Feeds",
+					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 
 			}
@@ -69,7 +67,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 730.0, 55.0, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 730.0, 55.0, 21.0, 21.0 ],
+					"presentation_rect" : [ 407.333344, 283.666687, 21.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -84,7 +82,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 613.0, 55.0, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 613.0, 55.0, 21.0, 21.0 ],
+					"presentation_rect" : [ 290.333344, 283.666687, 21.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -99,7 +97,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 497.0, 55.0, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 497.0, 55.0, 21.0, 21.0 ],
+					"presentation_rect" : [ 174.333344, 283.666687, 21.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -114,7 +112,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 380.0, 55.0, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.0, 55.0, 21.0, 21.0 ],
+					"presentation_rect" : [ 57.333336, 283.666687, 21.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -173,14 +171,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 20.0,
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.0, 16.0, 50.0, 22.0 ],
+					"patching_rect" : [ 278.0, 16.0, 80.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 16.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 609.302002, 93.0, 80.0, 31.0 ],
 					"style" : "",
 					"text" : "replace"
 				}
@@ -188,14 +187,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 20.0,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.0, 16.0, 50.0, 22.0 ],
+					"patching_rect" : [ 187.0, 16.0, 80.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.0, 16.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 422.201355, 93.0, 80.0, 31.0 ],
 					"style" : "",
 					"text" : "replace"
 				}
@@ -203,14 +203,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 20.0,
 					"id" : "obj-18",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 16.0, 50.0, 22.0 ],
+					"patching_rect" : [ 96.0, 16.0, 80.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 16.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 235.100647, 93.0, 80.0, 31.0 ],
 					"style" : "",
 					"text" : "replace"
 				}
@@ -218,14 +219,15 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 20.0,
 					"id" : "obj-17",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 16.0, 50.0, 22.0 ],
+					"patching_rect" : [ 7.0, 16.0, 80.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 16.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 48.0, 93.0, 80.0, 31.0 ],
 					"style" : "",
 					"text" : "replace"
 				}
@@ -332,6 +334,28 @@
 					"patching_rect" : [ 7.0, 46.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "buffer~ tape1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.287863, 0.333333, 0.329398, 1.0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-115",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "vg.VT_controls.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1.666626, 573.333313, 717.333374, 365.333374 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -1.333374, 26.0, 717.333374, 366.000031 ],
+					"viewvisibility" : 1
 				}
 
 			}
