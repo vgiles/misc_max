@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 33.0, 81.0, 974.0, 786.0 ],
+		"openrect" : [ 33.0, 81.0, 1299.0, 791.0 ],
 		"bgcolor" : [ 0.710412, 0.673158, 0.582831, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
+		"devicewidth" : 1299.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
